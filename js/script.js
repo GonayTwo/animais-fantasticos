@@ -8,6 +8,7 @@ import initDropDownMenu from "./modules/dropdownmenu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
 import initFetchAnimais from "./modules/fetch-animais.js";
+import initFetchBitcoin from "./modules/fetch-bitcoin.js";
 
 
 initScrollSuave();
@@ -20,5 +21,5 @@ initDropDownMenu();
 initMenuMobile();
 initFuncionamento();
 initFetchAnimais();
-
+initFetchBitcoin();
 
