@@ -269,3 +269,18 @@ body{
     transition: .3s;
     transform: translate3d(0,0,0);
 }
+
+[data-semana]::after{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: red;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 4px;
+}
+
+[data-semana].aberto::after{
+    background: #3F4;
+}
