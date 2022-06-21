@@ -4,8 +4,6 @@ export default class Accordion{
         this.accordionList = document.querySelectorAll(list);
         this.activeClass = 'ativo';
     }
-    //const accordionList = document.querySelectorAll('[data-anime="accordion"] dt');
-    //const activeClass = 'ativo';
 
     toggleAccordion(item) {
         item.classList.toggle(this.activeClass); //Adiciona a classe ativo ao elemento clicado.
